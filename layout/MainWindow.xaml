@@ -1,0 +1,50 @@
+﻿<Window x:Class="layout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:layout"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Beige">
+        <Grid.Resources>
+            <Style TargetType="TextBlock">
+                <Setter Property="Margin" Value="5,3" />
+            </Style>
+        </Grid.Resources>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        
+
+        <TextBlock Grid.Row="0" Grid.Column="0">Title:</TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="1">information</TextBlock>
+        
+        <Rectangle Grid.Row="1" Grid.ColumnSpan="2" Margin="5" Height="1" Fill="Black" />
+        
+        <TextBlock Grid.Row="2" Grid.Column="0">Protocol</TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1">unknown</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="0">Protocol</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1">unknown</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="0">Protocol</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1">unknown</TextBlock>
+        
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="2" Margin="5" Height="1" Fill="Black" />
+        
+        <TextBlock Grid.Row="6" Grid.Column="0">Protocol</TextBlock>
+        <TextBlock Grid.Row="6" Grid.Column="1">unknown</TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="0">Modified</TextBlock>
+        <TextBlock Grid.Row="7" Grid.Column="1">N/A</TextBlock>
+    </Grid>
+</Window>
