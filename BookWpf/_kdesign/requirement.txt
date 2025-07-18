@@ -1,0 +1,28 @@
+/*
+ * 요구사항(requirements) project: BookWpf
+ * 
+ * (25.7.13)
+ * Q1) wpf에는 Color를 생성하는 방법이 여러가지 있다. 이를 구현하는 윈도우를 설계해줘
+ * Q1-1) CreateSlider() 메서드를 완성
+ * Q1-2) AddPreviewButton 도 완성
+ * Q1-3) ShowColor도 완성
+ * Q1-4) AddRgbInputs 완성
+ * Q1-5) AddScRgbInputs 완성
+ * Q1-6) AddNamedColorInput 완성
+ * Q1-7) AddHexInput 완성
+ * 
+ * Q2) Colors는 141개의 전역 칼라가 지정되어 있다. 이를 Grid로 화면에 모두 출력하는 코드 작성. 사용자가 칼라를 click하면 clipboard에 Colors.xxx 으로 복사해줘
+ *  - ColorsPickDemo.xaml
+ * Q3) 지정된 디렉토리에서 모든 .xaml 파일을 읽은 후 목록으로 출력하는 Window를 작성해줘. 단, App.xaml, MainWindow.xaml 등 예외로 지정된 윈도우는 목록에 포함하지 않는다. 목록 중 하나를 선택하면 해당 윈도우를 동적으로 load하여 Show() 메서드를 호출한다.
+ * Q4) 특정 이미지 경로를 지정하면 화면에 출력하는 윈도우 예제
+ *  - ImageViewerWindow.xaml
+ *
+ * (25.7.18)
+ * 
+ *
+Q5) WindowStyle 목록을 보여주고 하나씩 클릭하면 해당 스타일이 적용된 샘플 윈도우를 띄우는 wpf 앱 작성
+ - WindowStyleDemo.xaml
+Q6) 숫자 10개를 랜덤으로 추출한다. 윈도우를 상,하단으로 구분한 후 상단에 숫자 10개를 표시한다. 상단에서 '추가' 버튼을 누르면 하단에 테두리가 있는 상자모양으로 숫자를 표시한다. 상단에는 숫자 9개만 남는다. '제거' 버튼을 누르면 하단 맨 밑의 상자를 없앤다. 상단 숫자에는 맨 앞에 추가한다. 구현해줘
+Q6-1) 아니 '추가', '삭제' 버튼은 1개만 있다
+Q6-2) 하단 StackPanel의 Orientation 속성을 사용자가 설정할 수 있게 해줘
+ */
